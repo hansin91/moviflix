@@ -1,0 +1,33 @@
+.carousel-inner {
+	.item {
+		img {
+			background-size: cover;
+			background-position: center;
+			width: 100%;
+		}
+	}
+	.carousel-caption {
+		text-align: left;
+		padding-bottom: 7rem;
+
+		&__content {
+			padding: 2rem;
+			border: 1px solid #ccc;
+			box-shadow: 0 3rem 6rem rgba(0, 0, 0, .1);
+			background-color: rgba(16, 29, 44, .93);
+			-webkit-transform: skewX(-12deg);
+			transform: skewX(-12deg);
+			text-align: justify;
+		}
+
+		h3 {
+			font-weight: 600;
+			-webkit-transform: skewX(12deg);
+			transform: skewX(12deg);
+		}
+		p {
+			-webkit-transform: skewX(12deg);
+			transform: skewX(12deg);
+		}
+	}
+}

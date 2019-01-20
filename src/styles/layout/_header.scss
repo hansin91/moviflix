@@ -1,0 +1,22 @@
+.header {
+	background-color: transparent;
+	padding: 1rem;
+	border-bottom: 1px solid $color-grey-light-2;
+
+	&__content {
+		display: flex;
+
+		&--text {
+			margin-right: 0.5rem;
+		}
+
+		&--title {
+			color: $color-primary !important;
+			font-family: inherit;
+		}
+
+		&--login {
+			align-items: center;
+		}
+	}
+}

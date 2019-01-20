@@ -1,0 +1,9 @@
+.list__container {
+	&--content {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+		grid-gap: 3rem;
+		align-items: start;
+		padding: 6rem;
+	}
+}
